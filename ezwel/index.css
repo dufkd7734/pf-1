@@ -1,0 +1,182 @@
+html {
+    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+  }
+  
+  /* 노말라이즈 */
+  body, ul, li, h1 {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  
+  a {
+    color:inherit;
+    text-decoration:none;
+  }
+  
+  label[for] {
+    cursor:pointer;
+    user-select:none;
+  }
+  
+  
+  /* 라이브러리 */
+  
+  /* lib */
+  .border-red {
+    border:4px solid red;
+  }
+  
+  .border-pink {
+    border:4px solid pink;
+  }
+  
+  .border-blue {
+    border:4px solid blue;
+  }
+  
+  .border-green {
+    border:4px solid green;
+  }
+  
+  .border-black {
+    border:4px solid black;
+  }
+  
+  .border-gold {
+    border:4px solid gold;
+  }
+  
+  .flex {
+    display:flex;
+  }
+  
+  .flex-jc-e {
+    justify-content:flex-end;
+  }
+  
+  .flex-jc-s {
+    justify-content:flex-start;
+  }
+  
+  .flex-jc-c {
+    justify-content:center;
+  }
+  
+  .flex-jc-sb {
+    justify-content:space-between;
+  }
+  
+  .flex-ai-c {
+    align-items:center;
+  }
+  
+  .flex-as-c {
+    align-self:center;
+  }
+  
+  .flex-ac-e {
+    align-content: flex-end;
+  }
+  
+  .flex-ai-e {
+    align-items: flex-end;
+  }
+  
+  .flex-grow-1 {
+    flex-grow:1;
+  }
+  
+  .height-100p {
+    height:100%;
+  }
+  
+  .block {
+    display:block;
+  }
+  
+  .con {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .img-box > img {
+    width:100%;
+    display:block;
+  }
+  
+  .relative {
+    position:relative;
+  }
+  
+  /* cos */
+  .con {
+    width:1080px;
+  }
+  
+  .con-min-width {
+    min-width:1080px;
+  }
+  
+  /* support */
+  
+  .wrap {
+    width: 100%;
+    height: 726px;
+    background-color: #f6f6f6;
+  }
+  
+  .wrap > .support > h1 > span {
+    color: #dfdfdf;
+    font-size: 30px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  .wrap > .support > .img-box {
+    width: 100%;
+  }
+  
+  .wrap > .support > .guide-list {
+    display: table;
+  }
+  
+  .wrap > .support > .guide-list > ul > li {
+    height: 263px;
+  }
+  
+  .wrap > .support > .guide-list > ul > li > a > .icon {
+    background-image: url(http://img.ezwelfare.net/welfare_corp/css/user/front/pc/images/sprite.png);
+  }
+  
+  .wrap > .support > .guide-list > ul > li > a > .ico-consult {
+    background-position: 0 -245px;
+    width: 101px;
+    height: 89px;
+  }
+  
+  .wrap > .support > .guide-list > ul > li > a > .ico-partner {
+    background-position: -175px 0;
+    width: 105px;
+    height: 100px;
+  }
+  
+  .wrap > .support > .guide-list > ul > li > a > .ico-service {
+    background-position: 0 -135px;
+    width: 105px;
+    height: 100px;
+  }
+  
+  .wrap > .support > .guide-list > ul > li > a > .ico-appdown {
+    background-position: -115px -135px;
+    width: 95px;
+    height: 99px;
+  }
+  
+  .wrap > .support > .guide-list > ul > li > a > .ico-ethics {
+    background-position: -290px -105px;
+    width: 92px;
+    height: 91px;
+  }
